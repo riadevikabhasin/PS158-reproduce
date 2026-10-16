@@ -1,0 +1,2 @@
+matplotlib==3.9.4
+fonttools==4.60.2
