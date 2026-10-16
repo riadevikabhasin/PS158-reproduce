@@ -38,6 +38,14 @@ python3 -m venv .venv
 - Both use Avenir Next if installed (macOS), then Helvetica Neue or Inter, otherwise matplotlib's
   default font. The figures look slightly different on other systems; the data do not.
 
+## Optional extension: deviation from the average
+
+The second figure (`plot_diff.py`) shows each country's percentage-point difference from the
+unweighted 30-country average of 54%, calculated directly from the CSV, with countries in the same
+order as the original. Centering on the average makes it easier to see that more countries fall
+below it (16) than above it (14), and that the United States (−23), Japan (−22) and Hungary (−21)
+sit about as far below the average as Indonesia (+22) sits above it.
+
 ## Validation checks
 
 1. **Against Stanford's figure:** all 31 plotted values (30 countries + average) match Figure 9.3.1
